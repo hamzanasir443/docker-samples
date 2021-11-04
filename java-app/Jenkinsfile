@@ -3,12 +3,12 @@ agent any
 stages {
 stage('Build') {
 steps {
-echo "Build"
+echo "First-Build"
 }
 }
 stage ('Test') {
 steps {
-echo "Test"
+echo "Test-commit"
 }
 }
 }
