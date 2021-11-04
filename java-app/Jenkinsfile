@@ -8,7 +8,7 @@ echo "First-Build"
 }
 stage ('Test') {
 steps {
-echo "Test-commit"
+echo "Test-first-commit"
 }
 }
 }
